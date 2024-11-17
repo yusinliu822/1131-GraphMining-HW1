@@ -70,3 +70,7 @@ I've experimented the following models with DGL:
         - I've tried all aggregator type that DGL supports(gcn, lstm, mean, pool). In this case, the performance rank is gcn > mean > pool >> lstm.
 
 I also tried to apply contrastive learning for loss computing but failed with loss.backward() implementation.
+
+
+## Kaggle Competition
+Wang , Ching-Kai. 2024 NCU Graph Mining and Optimization HW. https://kaggle.com/competitions/2024-ncu-graph-mining-and-optimization-hw, 2024. Kaggle.
