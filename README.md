@@ -1,6 +1,6 @@
-# Graph Mining and Optimization HW
+# Graph Mining and Optimization HW1
 
-## You can create the environment with anaconda
+## Create the environment with venv
 
 ```bash
 $ virtualenv venv
@@ -56,9 +56,9 @@ I've experimented the following models with DGL:
 
 - GCN 
     - Sample Code
-        - dropout except first layer
+        - dropout except the first layer
     - 2-Layer
-        - modified from sample code, but dropout except last layer
+        - modified from sample code, but dropout except the last layer
 - GAT
     - I've tried GATConv and GATv2Conv
     - The best result of GATs is
@@ -73,4 +73,4 @@ I also tried to apply contrastive learning for loss computing but failed with lo
 
 
 ## Kaggle Competition
-Wang , Ching-Kai. 2024 NCU Graph Mining and Optimization HW. https://kaggle.com/competitions/2024-ncu-graph-mining-and-optimization-hw, 2024. Kaggle.
+Wang, Ching-Kai. 2024 NCU Graph Mining and Optimization HW. https://kaggle.com/competitions/2024-ncu-graph-mining-and-optimization-hw, 2024. Kaggle.
